@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 36px;
+    margin: 20px;
+    border-bottom: 8px double;
+    display: inline-block;    
+}
+
+.lasagna {
+    margin: 10px;
+    border: 5px orange dotted;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-flex;
+}
+
+
